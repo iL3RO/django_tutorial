@@ -1,8 +1,58 @@
-li a {
-    color: green;
-    background-color: blanchedalmond;
+body {
+    background: url("images/linuxvswindows.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px;
 }
 
-body {
-    background: white url("images/background.jpg");
+h1 {
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+li a {
+    color: white;
+    background-color: rgba(0, 128, 0, 0.7);
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.2em;
+}
+
+li a:hover {
+    background-color: rgba(0, 150, 0, 0.9);
+    transform: translateX(10px);
+    border-color: white;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 1.1em;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+    border-radius: 10px;
 }
